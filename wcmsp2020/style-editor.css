@@ -1,0 +1,51 @@
+/**
+ * WCMSP PALETTE
+ */
+
+body {
+    /* not part of the palette demo, just for me */
+    font-family: sans-serif;
+
+    /* 02 */
+    color: var(--palette-text);
+
+    /* 04 */
+    background-color: var(--palette-bg);
+}
+
+body a,
+body a:visited {
+    /* 05 */
+    color: var(--palette-interactive);
+    transition: color .3s;
+}
+
+body a:hover,
+body a:focus {
+    /* 05 */
+    color: var(--palette-interactive-darker);
+}
+
+body .wp-block-button__link,
+body .wp-block-button__link:visited {
+    /* 05 */
+    background: var(--palette-attention);
+    color: var(--palette-light);
+}
+
+body .wp-block-button__link:hover,
+body .wp-block-button__link:focus {
+    /* 05 */
+    background: var(--palette-attention-darker);
+    color: var(--palette-light);
+}
+
+body .wp-block-quote {
+    /* 05 */
+    border-color: var(--palette-attention);
+}
+
+body .wp-block-quote__citation {
+    /* 05 */
+    color: var(--palette-text-alt-lighter);
+}
